@@ -32,7 +32,6 @@ body {
     margin: auto;
 }
 
-
 .btn {
     justify-self: right;
     border: solid rgba(0, 0, 0, 0);
@@ -399,6 +398,11 @@ body {
         justify-items: center;
     }
 
+    .main-content {
+        position: relative;
+        top: 21%;
+    }
+
     .text1 {
         width: 100%;
         display: grid;
@@ -540,9 +544,12 @@ body {
     }
 
     .bt {
-        width:100%;
+        width: 100%;
     }
-    .details{position: relative;}
+
+    .details {
+        position: relative;
+    }
 }
 
 * {
