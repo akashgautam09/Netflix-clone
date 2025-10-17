@@ -401,12 +401,16 @@ body {
     .main-content {
         position: relative;
         top: 22%;
+        width: 100%;
     }
 
     .label1 {
         width: 98%;
         justify-self: center;
+    }
 
+    .label1 input {
+        width: 98%;
     }
 
     .text1 {
