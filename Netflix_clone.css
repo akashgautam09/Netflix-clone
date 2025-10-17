@@ -103,8 +103,6 @@ body {
     position: relative;
     z-index: 1;
     text-align: center;
-    width: 98%;
-    justify-self: center;
 }
 
 .started {
@@ -403,6 +401,12 @@ body {
     .main-content {
         position: relative;
         top: 22%;
+    }
+
+    .label1 {
+        width: 98%;
+        justify-self: center;
+
     }
 
     .text1 {
