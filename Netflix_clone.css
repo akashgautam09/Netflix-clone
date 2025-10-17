@@ -103,6 +103,8 @@ body {
     position: relative;
     z-index: 1;
     text-align: center;
+    width: 98%;
+    justify-self: center;
 }
 
 .started {
