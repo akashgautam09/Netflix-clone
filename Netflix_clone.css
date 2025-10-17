@@ -401,7 +401,8 @@ body {
     .main-content {
         position: relative;
         top: 22%;
-        width: 100%;
+        width: 98%;
+        justify-self: center;
     }
 
     .label1 {
@@ -409,7 +410,7 @@ body {
         justify-self: center;
     }
 
-    .label1 input {
+    .main input {
         width: 98%;
     }
 
