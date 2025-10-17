@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 723.76px;
+    background-image: url("assests/background.jpg");
+    background-size: max(1285px, 100vw);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main .box {
+    opacity: 0.65;
+    height: 723.76px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    width: 80vw;
+    height: 88px;
+    align-items: center;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.btn {
+    justify-self: right;
+    border: solid rgba(0, 0, 0, 0);
+    border-radius: calc(0.25rem - 0.0625rem);
+    font-weight: 750;
+    color: white;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    padding: 0.375rem 1rem
+}
+
+.btn1 {
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    /* padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+    padding-left: calc(0.625rem + 1rem + 0.5rem); */
+    border: 0.2px solid rgba(255, 255, 255, 0.458);
+    margin-right: 1px;
+}
+
+.logo {
+    position: relative;
+    z-index: 1;
+}
+
+.btn2 {
+    background-color: #e50914;
+    /* padding: 0.375rem 1rem */
+}
+
+.text0 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+}
+
+.text1 h1 {
+    color: white;
+    margin-bottom: 1rem;
+    line-height: 125%;
+    position: relative;
+    z-index: 1;
+}
+
+.text1 p {
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    z-index: 1;
+}
+
+.text1 :nth-child(2) {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.text1 :nth-child(3) {
+    font-size: 1rem;
+    padding-inline: 21px;
+}
+
+.label1 {
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.started {
+    background-color: #e50914;
+    color: white;
+    margin-left: 4px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding: 16.29px 29px;
+    padding: 16.29px 23.29px 16.29px 22px;
+    cursor: pointer;
+}
+
+.bottom_line {
+    height: 0.5vh;
+    background-color: #b01337;
+    z-index: 1;
+    margin-bottom: 23px;
+}
+
+
+.main input {
+    color: white;
+    font-family: 'Martel Sans';
+    background-color: rgb(23 23 23 / 85%);
+    padding: 15px 2px 8px 9px;
+    border: 0.2px solid rgba(255, 255, 255, 0.458);
+    font-weight: bold;
+    font-size: 19px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+
+
+.box4 {
+    justify-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 50px auto;
+    ;
+}
+
+.trending {
+    display: flex;
+    list-style: none;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+}
+
+.box3 {
+    margin: 10px 30px 10px 10px;
+    border-radius: 0.5rem;
+    width: 180px;
+    height: 259px;
+    /* position: relative; */
+    display: inline-block;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+.box3:hover {
+    transform: scale(1.09);
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 0.5rem; */
+}
+
+.img1 {
+    background-image: url(assests/wednesday.png);
+}
+
+.img2 {
+    background-image: url(assests/kapil.png);
+}
+
+.img3 {
+    background-image: url(assests/raid2.png);
+}
+
+.img4 {
+    background-image: url(assests/maareesan.png);
+}
+
+.img5 {
+    background-image: url(assests/kingdom.png);
+}
+
+.img6 {
+    background-image: url(assests/squid.png);
+}
+
+.img7 {
+    background-image: url(assests/maa.png);
+}
+
+.trending::-webkit-scrollbar {
+    height: 0px;
+}
+
+.trndng {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.context {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    width: 80%;
+    justify-self: center;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.reasons {
+    max-width: 80vw;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.bt {
+    background-image: url(assests/details.png);
+    /* width: 282px;
+    height: 271px; */
+    border-radius: 16px;
+    position: relative;
+}
+
+.details {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+}
+
+.content {
+    margin: 30px 10px 23px 24px;
+    color: white;
+    font-family: unset;
+    font-size: 1.28rem;
+    font-weight: 900;
+}
+
+.svgn {
+    display: flex;
+    justify-self: flex-end;
+    height: 64px;
+    margin-right: 15px;
+}
+
+.content_svg1 {
+    margin-top: 23px;
+}
+
+.content_svg2 {
+    margin-top: 15px;
+}
+
+.content_svg3 {
+    margin-top: 48px;
+}
+
+.content_svg4 {
+    margin-top: 21px;
+}
+
+.bnl {
+    color: white;
+    font-family: unset;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 18px 0 24px;
+}
+
+.faq {
+    color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    /* margin: 1rem 1rem 0.7rem 0; */
+    /* display: grid; */
+    /* justify-self: center; */
+}
+
+.kmth2 {
+    justify-self: center;
+}
+
+.faq_container {
+    background-color: #252424;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    margin-bottom: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.started_0 {
+    justify-items: center;
+    width: 90vw;
+    justify-self: center;
+    margin-top: 70px;
+
+}
+
+.ready {
+    color: white;
+    margin: 15px 0;
+}
+
+.started_1 input {
+    color: white;
+    font-family: 'Martel Sans';
+    background-color: rgb(23 23 23 / 85%);
+    border: 0.2px solid rgba(255, 255, 255, 0.458);
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 4px;
+    height: 60px;
+    padding: 15px 2px 8px 9px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.futar {
+    width: 75%;
+}
+
+.polh {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.container10 {
+    width: 80vw;
+    margin: 79px 0 50px;
+    justify-self: center;
+}
+
+.swnp {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.polh2 {
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 20px 0;
+}
+
+.last_lne {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 65px;
+}
+
+@media screen and (orientation: portrait) {
+    .navbar {
+        width: 100vw;
+        height: 84px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .text1 {
+        width: 100%;
+        display: grid;
+        text-align: center;
+    }
+
+    .text0 {
+        margin-top: 10%;
+        font-family: unset;
+    }
+
+    .started {
+        margin-top: 11px;
+    }
+
+    .box4 {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .reasons {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        /* row-gap: 12px; */
+        justify-content: center;
+    }
+
+    .bt {
+        width: 372px;
+        height: 280px;
+        margin: 10px;
+        padding: 0.7rem;
+    }
+
+    .kmth {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        justify-items: center;
+    }
+
+    .faq_container {
+        /* width: 91vw; */
+        height: 80px;
+    }
+
+    .plus {
+        width: 21px;
+    }
+
+    .kmth2 {
+        width: 90vw;
+    }
+
+    .started_0 {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .started_1 input {
+        width: 100%;
+    }
+
+    .futar_1 {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .text1 {
+        width: 45%;
+        text-align: center;
+    }
+
+    .text1 h1 {
+        font-size: 3.5rem;
+    }
+
+    .text0 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reasons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .bt {
+        width: 289px;
+        height: 289px;
+        margin: 10px 22px 10px 0px;
+    }
+
+    .plus {
+        width: 35px;
+    }
+
+    .question {
+        font-size: 1.5rem;
+    }
+
+    .faq {
+        font-size: 1.5rem;
+    }
+
+    .faq_container {
+        /* width: 80.3vw; */
+        height: 84px;
+    }
+
+    .kmth2 {
+        width: 80vw;
+    }
+
+    .started_1 input {
+        width: 554px;
+    }
+
+    .futar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .futar_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:510px) and (max-width:1248px) {
+    .reasons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bt {
+        width:100%;
+    }
+    .details{position: relative;}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
